@@ -1,5 +1,9 @@
 import * as Icon from 'react-native-heroicons/solid'
 import dress from 'C:/Users/KUMI/Documents/projects/ZapTech/ecom/assets/images/Red.png'
+import google from 'C:/Users/KUMI/Documents/projects/ZapTech/ecom/assets/images/google.jpg'
+import mastercard from 'C:/Users/KUMI/Documents/projects/ZapTech/ecom/assets/images/mastercard.png'
+import paypal from 'C:/Users/KUMI/Documents/projects/ZapTech/ecom/assets/images/paypal.png'
+import visa from 'C:/Users/KUMI/Documents/projects/ZapTech/ecom/assets/images/visa.png'
 import shoe from 'C:/Users/KUMI/Documents/projects/ZapTech/ecom/assets/images/Yellow.png'
 
 const color='black'
@@ -47,6 +51,26 @@ export const about=[
     {
         name:'Sign in and security',
         icon:<Icon.LockClosedIcon stroke={color} size={size} color={color}/>
+    },
+    
+    
+]
+export const payments=[
+    {
+        name:'Mastercard ',
+        image:mastercard
+    },
+    {
+        name:'Paypal',
+        image:paypal
+    },
+    {
+        name:'Visa',
+        image:visa
+    },
+    {
+        name:'Google pay',
+        image:google
     },
     
     

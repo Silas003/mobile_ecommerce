@@ -4,10 +4,12 @@ import Profile from './Screens/Profile';
 import Delivery_Address from './Screens/Delivery_Address';
 import Tracking from './Screens/Tracking';
 import Categories from './Screens/Categories';
+import Payment from './Screens/Payment';
+import PaymentCards from './Screens/PaymentCards';
 
 export default function App() {
   return (
-    <Categories/>
+    <PaymentCards/>
   );
 }
 
